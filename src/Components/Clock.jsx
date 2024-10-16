@@ -20,10 +20,10 @@ class Clock extends React.Component {
   render() {
     return (
       <>
-        <div class="clock-container">
-          <div class ="time">
+        <div className="clock-container">
+          <div className ="time">
           <h1>{this.state.time}</h1>
-          <h5>{this.state.day}</h5>
+          <span>{this.state.day}</span>
           <span>{this.state.date}</span>
           </div>
         </div>
